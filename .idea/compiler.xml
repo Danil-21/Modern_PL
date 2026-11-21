@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Practice3" />
         <module name="Practice4" />
+        <module name="Practice5" />
         <module name="Practice1" />
         <module name="Practice2" />
       </profile>
