@@ -51,7 +51,7 @@ public class Exercise5 {
             double[] sides = new double[3];
 
             System.out.println("\nВведите стороны треугольника");
-            System.out.println("Для возврата в меню введите 0 вместо первой стороны.");
+            System.out.println("Для возврата в меню введите 0 вместо первой стороны");
 
             System.out.print("A: ");
             sides[0] = scanner.nextDouble();
@@ -70,7 +70,7 @@ public class Exercise5 {
                 return sides;
             }
 
-            System.out.println("Повторите ввод сторон.");
+            System.out.println("Повторите ввод сторон");
         }
     }
 
@@ -108,7 +108,7 @@ public class Exercise5 {
     }
 
     public static void showProgramInfo() {
-        System.out.println("Программа вычисляет площадь треугольника по формуле Герона.");
+        System.out.println("Программа вычисляет площадь треугольника по формуле Герона");
     }
 
     public static void showDeveloperInfo() {

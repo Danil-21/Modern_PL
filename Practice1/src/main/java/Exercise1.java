@@ -2,24 +2,20 @@ import java.util.Scanner;
 
 public class Exercise1 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        double a = scanner.nextDouble();
-        double b = scanner.nextDouble();
-        double c = scanner.nextDouble();
-
-        if (a <= 0 || b <= 0 || c <= 0){
-            System.out.println("Длинны сторон должны быть положительными");
-            System.exit(1);
-        }
-
-        if (a + b <= c || a + c <= b || b + c <= a){
-            System.out.println("Треугольника с такими сторонами не существует");
-            System.exit(1);
-        }
-
-        double p = (a + b + c) / 2;
-        double area = Math.sqrt(p * (p - a) * (p - b) * (p - c));
-
-        System.out.printf("Площадь треугольника равна: %.2f", area);
+        char x = 'W';
+        float i = 62.96f;
+        boolean secret = true;
+        char k = '5';
+        double h = 3589.03269432621749879;
+        double t = 3151.0;
+        int value = 6278;
+        String word = "апельсин";
+        double number1 = 3589.03269432621749879;
+        int j = 3151;
+        String text = "снежинка";
+        char letter = 'f';
+        String flower = "Цветок";
+        double z = 7536.23548958580272503;
+        String carousel = "карусель";
     }
 }

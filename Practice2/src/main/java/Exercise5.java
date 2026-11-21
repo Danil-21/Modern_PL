@@ -10,11 +10,7 @@ public class Exercise5 {
         int choice = -1;
 
         while (choice != 0) {
-            System.out.println("\nГЛАВНОЕ МЕНЮ");
-            System.out.println("1. Выполнить расчёт");
-            System.out.println("2. Информация о программе");
-            System.out.println("3. Информация о разработчике");
-            System.out.println("0. Выход");
+            showMenu();
 
             System.out.print("Выберите пункт: ");
             choice = scanner.nextInt();
@@ -65,12 +61,12 @@ public class Exercise5 {
             double c = scanner.nextDouble();
 
             if (a <= 0 || b <= 0 || c <= 0) {
-                System.out.println("Ошибка: стороны должны быть положительными!");
+                System.out.println("Стороны должны быть положительными!");
                 continue;
             }
 
             if (a + b <= c || a + c <= b || b + c <= a) {
-                System.out.println("Ошибка: такого треугольника не существует!");
+                System.out.println("Такого треугольника не существует!");
                 continue;
             }
 

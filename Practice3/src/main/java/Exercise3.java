@@ -16,8 +16,6 @@ public class Exercise3 {
 
         int[] arr = { 1, 3, 6, 2, 7, 9, 0, 10, 11};
 
-        int n = arr.length;
-
         double[] avgArr = getAvgArray(arr);
 
         System.out.println("Массив B:");

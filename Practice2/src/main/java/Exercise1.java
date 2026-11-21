@@ -23,5 +23,6 @@ public class Exercise1 {
 
         int count = b - a + 1;
         System.out.println("\nКоличество чисел: " + count);
+
     }
 }
